@@ -1,0 +1,74 @@
+body {
+  font-size: 100%; /* start value*/
+  margin: auto; /* centers the page */
+  max-width: 860px;
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  height: 250px;
+  width: 250px;
+}
+
+.startpage h1 {
+  font-size: 500%; /* Big title on the start page*/
+}
+
+.tagline {
+  font-size: 120%;
+  padding: 0.5em; /* distance to the border*/
+  border-top: 3px double #00af64;
+  border-bottom: 3px double #00af64;
+  margin: 1em 0; /* distance downwards but not upwards*/
+}
+
+.menu h2 {
+  margin: 0 0 1em;
+  padding: 2em 0;
+  text-align: center;
+}
+
+footer {
+  margin-top: 3em;
+  text-align: center;
+  color: #999;
+}
+
+menu a {
+  text-decoration: none;
+  color: rgb(32, 151, 141);
+}
+
+.menu a:focus .menu a:hover {
+  text-decoration: underline;
+  color: #76d6f3;
+}
+
+.startpage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.startpage header,
+.startpage footer {
+  flex: 0 0 100%;
+}
+
+.startpage section {
+  flex: 0 0 22%;
+}
+
+body {
+  background-image: url("awater.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.icon {
+  display: flex !important;
+  flex-direction: column !important;
+}
